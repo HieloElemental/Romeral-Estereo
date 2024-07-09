@@ -1,0 +1,35 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    colors: {
+      "yellow-green-50": "#F8FCED",
+      "yellow-green-100": "#ECF5D3",
+      "yellow-green-200": "#DFEEB9",
+      "yellow-green-300": "#B9D96B",
+      "yellow-green-400": "#ACD251",
+      "yellow-green-500": "#92C41D",
+      "yellow-green-600": "#6A8E15",
+      "yellow-green-700": "#546F11",
+      "yellow-green-800": "#3D500C",
+      "yellow-green-900": "#273108",
+      "yellow-green-950": "#101103",
+      "orange-wheel-50": "#FDF9EC",
+      "orange-wheel-100": "#FAEFCE",
+      "orange-wheel-200": "#F7E4B0",
+      "orange-wheel-300": "#F5C07A",
+      "orange-wheel-400": "#F3A756",
+      "orange-wheel-500": "#F08220",
+      "orange-wheel-600": "#CE5E16",
+      "orange-wheel-700": "#AC390C",
+      "orange-wheel-800": "#5E2508",
+      "orange-wheel-900": "#4A2007",
+      "orange-wheel-950": "#351B06",
+    },
+    fontFamily: {
+      sans: ["Nunito", "Helvetica", "Arial", "sans-serif"],
+    },
+    extend: {},
+  },
+  plugins: [],
+};
