@@ -2,6 +2,8 @@ import Header from "./components/Header";
 
 import romeralLogo from "/logo.png";
 import "./app.css";
+import WelcomeCard from "./components/WelcomeCard";
+import PromotionCard from "./components/PromotionCard";
 
 const App = () => {
   return (
@@ -13,6 +15,10 @@ const App = () => {
         }}
       >
         <Header subtitle='Bienvenidos' />
+        <main className='flex flex-col py-10 items-center justify-center gap-4 md:items-start md:flex-row md:p-10'>
+          <PromotionCard />
+          <WelcomeCard />
+        </main>
         <h1>Romeral Estereo</h1>
         <a href='https://romeralestereo.com' target='_blank'>
           <img src={romeralLogo} className='logo' alt='Vite logo' />
